@@ -23,11 +23,45 @@
 
     .footer_body {
         color: white;
-        background-color: #4aaaa5;
+        background-color: grey;
         text-align: center;
     }
 
     body {
         padding-top: 150px;
-        /* background-image: url("../images/back_ground_stonehaven.jpg"); */
+        background-image: url("../images/back_ground_stonehaven.jpg");
+    }
+
+    h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    }
+  
+  .main_screen
+  {
+    margin-left: 100px;
+
+  }
+
+
+#container {
+                position: relative;    
+           }
+
+
+    .portfolio_name
+    {
+        position: relative;
+        top: -100px;
+        left: 0px; 
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
     }
